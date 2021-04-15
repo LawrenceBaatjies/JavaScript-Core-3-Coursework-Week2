@@ -27,7 +27,7 @@ window.onload = function() {
       let currentPhotoNumber = listElem.childNodes.length;
 
       for (let i = 0; i < currentPhotoNumber; i++) {
-        var child = listElem.childNodes[i];
+        let child = listElem.childNodes[i];
         listElem.removeChild(child);
       }
 
